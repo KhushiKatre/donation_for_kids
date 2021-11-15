@@ -1,0 +1,64 @@
+body{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  
+}
+   
+   button{
+      border-radius: 10px;
+     width: 50px;
+     height: 50px;
+      background-image: url("img/the.jpg");
+     background-position:center;
+     background-size: 50px;
+  }
+  
+  nav
+  {
+    width:100%; height:20%;
+    border-radius: 10px;
+    background  :  rgb(251, 252, 251);
+       display:flex;
+       justify-content:space-between;
+       align-items: center;
+        text-transform:uppercase;
+  }
+ 
+  nav .menu
+  {
+    width:100%;
+    display:flex; 
+     justify-content: space-around ;
+  }
+  nav .menu a
+  {
+       color: rgb(8, 8, 8);
+       font-weight:bolder;
+       font-size: 19px;   
+  }
+  main{
+    width:100%; 
+    height:85vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    color:white;
+    
+  }
+ .one{
+     color: rgb(0, 0, 0);
+     font-weight: bolder;
+     font-size: 1cm;  
+ }
+ .two{
+   font-weight: lighter;
+ }
+  nav .menu a:hover {
+    color: orange;
+    transition: all 250ms ease;
+    transform: translate3d(0, -5px, 0);
+  }
+  .text {
+    color: #fc1111;
+  }
